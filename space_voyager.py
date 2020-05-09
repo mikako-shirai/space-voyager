@@ -1,24 +1,10 @@
 
-"""
- 算術演算子　+ - * / %(剰余) //(商を整数) **(べき乗)
- 複合代入演算子　+= -= *= /= %=(余りをyに代入)
-"""
-
-
-"""
- 第9章　　ゲームの作成2　シューティングゲーム
-"""
-"""
- 宇宙船が隕石帯を超えていくゲーム スペースボイジャー
- 
-"""
 import sys
 from math import radians, sin, cos
 from random import randint
 import pygame
 from pygame.locals import QUIT, KEYDOWN, KEYUP, K_SPACE, K_LEFT, K_RIGHT, K_UP, K_DOWN, Rect
 
-# グローバル
 WIDTH = 600
 HEIGHT = 600
 MISSILE_MAX = 5
@@ -176,14 +162,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-"""
- 1. 
- 2. 
- 3. 
- 4. 
- 
-"""
-
-
-
