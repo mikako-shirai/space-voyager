@@ -77,7 +77,7 @@ pygame.display.set_caption("Space Voyager")
 
 def main():
     message_font = pygame.font.SysFont(None, 37)
-    message_clear = message_font.render("CLEARED!", True, (0, 255, 0))
+    message_clear = message_font.render("YOU WIN!", True, (0, 255, 0))
     message_over = message_font.render("GAME OVER!", True, (200, 10, 10))
     message_rect = message_clear.get_rect()
     message_rect.center = (WIDTH / 2, HEIGHT - 30)
