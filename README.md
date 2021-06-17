@@ -1,6 +1,6 @@
 # space voyager
 
-A simple shooting game   
+### A simple shooting game   
 
 game instruction
 ```
